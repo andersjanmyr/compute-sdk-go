@@ -257,7 +257,7 @@ const (
 	headerNameMaxLen      = 1024
 	headerValueMaxLen     = 65536
 	dictionaryValueMaxLen = 8192 // https://docs.fastly.com/en/guides/about-edge-dictionaries#limitations-and-considerations
-	defaultBufferLen      = 16 * 1024
+	defaultBufferLen      = 32 * 1024
 )
 
 // CacheOverrideOptions collects specific, caching-related options for outbound
